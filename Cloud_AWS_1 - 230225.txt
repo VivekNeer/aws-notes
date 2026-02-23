@@ -1,0 +1,76 @@
+Cloud_AWS_1 - 23/02/25 
+What is an Operating System ?
+OS is a layer above hardware, that allows us to interface with the hardware and develop software applications on top of it 
+
+Hardware components of server
+RAM , ROM , CPU , GPU 
+
+Software components of server
+OS , 
+
+There are endless types of distrubtions that exist in the linux ecosystem such as redHat,Linux Mint,..etc unlike windows and macos which doesnt have any ecosystem.
+
+Linux Architecture
+	-Hardware
+	-Kernel
+	-Shell
+	-Application Layer
+
+nano
+	save : ctrl+x yes
+	exit : cntrl+x no
+vi
+	save: esc,: -> wq and enter
+	exit: esc,: -> q and enter
+cd
+
+pwd
+
+ls
+ls -l
+shows perms
+d(directory)
+rwx(file owner) : 7
+r-x(group) : 5
+r-x(others) : 5
+
+r:read 4
+w:write 2
+x:execute 1
+Total:7 numeric
+
+drwxr-xr-x
+drwx=7
+    r-x=5(group)
+	r-x=5(others)
+
+touch
+history
+
+rm 
+rm -r recursive delete files
+rm -rf recursive delete directories
+rmdir
+
+chmod:used to give permissions
+examp:	chmod 777 file_name 
+		will give rwx for personal,group,others
+		-rwxrwxrwx
+	chmod 765 file_name
+		-rwxrw-r-x
+
+cp: command to copy the files
+cp source_location target_location
+can also copy contents directly to a targeted file also
+
+mv: command to move the files
+
+==================SCRIPTING=====================
+
+touch ex.sh
+
+#!/bin/bash
+
+mkdir demo && cd demo && touch file.txt
+echo "Hello All" > file1.txt 
+
